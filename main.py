@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 BOT_TOKEN = os.getenv('BOT_TOKEN', '')
 API_KEY = os.getenv('API_KEY', '')
 API_BASE_URL = 'https://bio.ffutils.tech/api/update_bio'
-OWNER_USERNAME = '' # add your telegram username here. example: '@itzpaglu'
+OWNER_USERNAME = 'CANDY FREE FIRE' # add your telegram username here. example: '@itzpaglu'
 REQUIRED_CHANNEL = '' # add your required channel username here. example: '@paglu_dev'. if you dont have any channel then leave it blank.
 
 if not BOT_TOKEN:
@@ -105,7 +105,7 @@ def handle_start(message):
         "  /start – Show this message\n"
         "  /help  – How to use the bot\n"
         "  /bio   – Update your FF bio\n\n"
-        f"👤 Owner: {OWNER_USERNAME}"
+        f"👤 Owner: {CANDY FREE FIRE}"
     )
     bot.send_message(message.chat.id, text)
 
